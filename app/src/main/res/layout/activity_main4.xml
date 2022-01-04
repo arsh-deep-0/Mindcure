@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    >
+
+    <Button
+        android:id="@+id/btnMyProfile"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+
+        android:fontFamily="@font/hello"
+        android:text="My Profile"
+        android:textAllCaps="false"
+        android:textSize="21dp"
+        app:cornerRadius="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#38acec"/>
+
+    <Button
+        android:id="@+id/quick"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        app:cornerRadius="20dp"
+        android:text="Quick energy test "
+        android:fontFamily="@font/hello"
+        android:textAllCaps="false"
+        android:textSize="23sp"
+        android:backgroundTint="#38acec"
+        android:textColor="@color/black"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="52304-women-day-flower-delivery.json"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:fontFamily="@font/hello"
+        android:text="mind Cure"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/music"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        app:cornerRadius="20dp"
+        android:text="Productivity music "
+        android:fontFamily="@font/hello"
+        android:textAllCaps="false"
+        android:textSize="23sp"
+        android:backgroundTint="#38acec"
+        android:textColor="@color/black"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

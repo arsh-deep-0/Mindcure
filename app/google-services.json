@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "572905309018",
+    "project_id": "mind-cures",
+    "storage_bucket": "mind-cures.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572905309018:android:02dcfdedaaccb5e47d2963",
+        "android_client_info": {
+          "package_name": "com.example.mindcure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572905309018-p32lt83cpd4a4ekqqejl5a659tld4vau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-0VqiK4KaAR4OikJ4HQ3CY-ZzLXpepHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572905309018-p32lt83cpd4a4ekqqejl5a659tld4vau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

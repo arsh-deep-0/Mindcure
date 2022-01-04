@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5"
+    android:padding="10dp"
+    android:background="#6fffee">
+
+
+   <Button
+       android:layout_width="350dp"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:backgroundTint="#ff6b66"
+       android:fontFamily="@font/hello"
+       android:text="*How many hours did you sleep an average ?"
+       android:textAllCaps="false"
+       android:textColor="@color/white"
+       android:textSize="45sp"
+       app:cornerRadius="20dp" />
+
+   <Button
+       android:id="@+id/opA"
+       android:layout_width="250dp"
+       android:layout_height="60dp"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="200dp"
+       android:backgroundTint="#ff6b66"
+       android:fontFamily="@font/hello"
+       android:text="Less than six "
+       android:textAllCaps="false"
+       android:textColor="@color/white"
+       android:textSize="35sp"
+       app:cornerRadius="110dp" />
+
+   <Button
+       android:id="@+id/b"
+       android:layout_width="250dp"
+       android:layout_height="60dp"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="260dp"
+       android:backgroundTint="#ff6b66"
+       android:fontFamily="@font/hello"
+       android:text=" Six to seven "
+       android:textAllCaps="false"
+       android:textColor="@color/white"
+       android:textSize="35sp"
+       app:cornerRadius="110dp" />
+
+   <Button
+       android:id="@+id/c"
+       android:layout_width="250dp"
+       android:layout_height="60dp"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="320dp"
+       android:backgroundTint="#ff6b66"
+       android:fontFamily="@font/hello"
+       android:text="Seven to eight"
+       android:textAllCaps="false"
+       android:textColor="@color/white"
+       android:textSize="35sp"
+       app:cornerRadius="110dp" />
+
+   <Button
+       android:id="@+id/d"
+       android:layout_width="250dp"
+       android:layout_height="60dp"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="380dp"
+       android:backgroundTint="#ff6b66"
+       android:fontFamily="@font/hello"
+       android:text="Eigth plus "
+       android:textAllCaps="false"
+       android:textColor="@color/white"
+       android:textSize="35sp"
+       app:cornerRadius="110dp" />
+
+   <com.airbnb.lottie.LottieAnimationView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+
+       android:layout_marginTop="428dp"
+       android:layout_marginBottom="0dp"
+       app:lottie_autoPlay="true"
+       app:lottie_fileName="4414-bouncy-basketball.json"
+       app:lottie_loop="true" />
+
+
+
+
+</RelativeLayout>
